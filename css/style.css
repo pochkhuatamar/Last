@@ -1,0 +1,65 @@
+body {
+    background-color: skyblue;
+    max-width:  1170px;
+     width: 100%;
+     margin: 0 auto;  
+    
+     background-image: url(../images/girl.png), url(../images/Decore.svg);
+     background-repeat: no-repeat, no-repeat;
+     background-size: 600px, 700px;
+     background-position: top 109px right 114px, top -200px right -50px; 
+     
+ 
+ }
+ header {
+    top: 0;
+    position: sticky;
+    z-index: 26;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.geolab {
+    width: 15%;
+}
+.nav-ul {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.nav-ul li :not(last-child) {
+margin-right: 20px;
+}
+.nav-ul > li {
+font-size: 20px;
+}
+
+
+.services-wrapper1 { 
+    text-align: center;
+    margin-top: 100px;
+}
+.services-wrapper1 h3 { 
+   margin-bottom:  10px;
+    
+}
+
+.backimage {
+    width: 574px;
+    height: 535px;
+    text-align: center;
+    margin-top: 20px;
+    background-color: aqua;
+
+}
+
+/* sectiondestinations */
+/* .sell-wrapper {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+} */
