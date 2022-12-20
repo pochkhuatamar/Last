@@ -67,19 +67,28 @@ font-size: 20px;
     margin-top: 90px;
    text-align: center;
    margin-top: 100px;
+   text-indent: 50px;
 }
-.backimage > button {
-   width: 170px;
-   height: 60px;
-   font-size: 18px;
-   background-color:#f1a501;
-   margin-right: 150px;
-   margin-top: 34px;
 
-}
-/* .backimage >.fa-solid {
+.btn {
+    border-radius: 30px;
+    width: 170px;
+    height: 60px;
+    font-size: 18px;
+    background-color:#f1a501;
+    margin-right: 300px ;
     margin-top: 34px;
-} */
+}
+
+.btn:hover{
+    background-color: greenyellow;
+    cursor: pointer;}
+.backimage >.fa-solid {
+    margin-top: 34px;
+}
+
+
+
 /* sectionoffers */
 .offerbox {
 
@@ -208,21 +217,19 @@ font-size: 20px;
     margin-left: 80px;
 }
 
-/* .girlworking > img {
-    width: 500px;
-    height: 300px;
-   padding-bottom: 50px;
-   margin-left: 500px; 
-   margin-top: 50px;
-
-
-} */
 
 /* sectiondestinations */
 
 .sell-wrapper {
     text-align: center;
     margin-top: 100px;
+    font-size: 18px;
+    color: #5e6282;
+}
+.sell-wrapper >h2 {
+    font-size: 50px;
+    color: #14183e;
+    font-weight: bold;
 }
 .destination-wrapper {
     display: flex;
@@ -239,12 +246,20 @@ font-size: 20px;
 
 
 /* nexttrip */
+.nexttrip-wrapper {
+    width: 1120x;
+    height: 500px;
+    border: 2px solid black;
+     display: flex;
+   flex-direction: column;
+   align-items: center; 
+}
 .tripstext {
     border: 2px solid forestgreen;
     position: relative;
     display: inline-block;
-   margin-right: 400px;
-   margin-top: 40px;
+    margin-right: 400px;
+    margin-top: 40px;
 }
 
 .tripstext  h3 {
@@ -260,27 +275,18 @@ font-size: 20px;
     font-size: 25px;
     color: aqua;
     bottom: 25%;
-    left: 30%;
-    
-}
-.nexttrip-wrapper {
-    width: 1120x;
-    height: 500px;
-    border: 2px solid black;
-    display: flex;
-   flex-direction: column;
-   align-items: center;
+    left: 30%;  
 }
 
-
-.step1 {
+.step {
     border: 3px solid cornflowerblue;
     width: 250px;
     height: 150px; 
-   text-align: center;
-   display: flex;
-   flex-direction: column;
+    margin-left: 700px;
+    margin-bottom: 800px;
+   
 }
+
 
 
 
