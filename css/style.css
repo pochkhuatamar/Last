@@ -82,17 +82,13 @@ font-size: 20px;
 } */
 /* sectionoffers */
 .offerbox {
+
     width: 1120x;
     height: 500px;
     border: 2px solid black;
 }
 /* sectiondestinations */
-/* .sell-wrapper {
-    width: 200px;
-    height: 200px;
-    display: flex;
-    justify-content: center;
-} */
+
 
 .offertitle { 
     text-align: center;
@@ -320,41 +316,50 @@ font-size: 20px;
     border: 2px solid yellow;
 
 }
+.jadoo-wrapper > h2 {
+    font-size: 44px;
+    color: #181e4b;
+    margin-left: 10px;
+}
+.jadoo-wrapper > p {
+    font-size: 13px;
+    color: #5e6282;
+    margin-left: 10px;
+}
 .footer-wrapper {
-    width: 475px;
-    height: 153px;
+    width: 250px;
+    height: 150px;
     border: 2px solid green;
     display: flex;
     flex-direction: column;
 }
 .footer-wrapper > a  {
     margin-top: 12px;
+    text-align: center;
 
 }
-.social {
-    width: 214px;
-    height: 147px;
+.socialbox{
+    width: 250px;
+    height: 150px;
     border: 2px solid red;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+} 
 .social >img {
-    margin-bottom: 30px;
+   margin-bottom: 80px;
     margin-left: 30px;
+
     
 }
 
-.app {
+.app > h2 {
+    font-size: 20px;
+    color: #5e6282;
+    text-align: center;
+   margin-top: -60px;
    
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    
 }
 
 .app > img {
-    width: 70px; 
- 
-   
+    width: 80px; 
+    margin-left: 20px;
+
 } 
