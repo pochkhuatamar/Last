@@ -19,6 +19,7 @@ body {
     display: flex;
     justify-content: space-between; 
     align-items: center;
+    /* position: fixed; width: 100%; top: 0; left: 0; */
 }
 
 .geolab {
@@ -37,16 +38,6 @@ margin-right: 20px;
 font-size: 20px;
 }
 
-
-.services-wrapper1 { 
-    text-align: center;
-    margin-top: 100px;
-}
-.services-wrapper1 h3 { 
-   margin-bottom:  10px;
-    
-}
-
 .backimage {
     width: 574px;
     height: 535px;
@@ -56,6 +47,8 @@ font-size: 20px;
 
 }
 
+/* sectionoffers */
+
 /* sectiondestinations */
 /* .sell-wrapper {
     width: 200px;
@@ -63,3 +56,90 @@ font-size: 20px;
     display: flex;
     justify-content: center;
 } */
+
+.offertitle { 
+    text-align: center;
+    margin-top: 100px;
+}
+.offertitle> h3 { 
+   margin-bottom:  10px;   
+}
+    .services1{
+    width: 1170px;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+
+.weather {
+    width: 300px;
+    height: 200px;
+}
+.weather > img {
+    width: 15%;
+    margin-left: 80px;
+}
+.weather > h3 {
+    margin-bottom:  10px; 
+    font-size: 20px;  
+    margin-left: 50px;
+}
+.weather > p {
+    font-size: 16px;  
+    letter-spacing: 2px;
+}
+.plane {
+    width: 300px;
+    height: 200px;
+}
+.plane > img {
+    width: 15%;
+    margin-left: 80px;
+}
+.plane > h3 {
+    margin-bottom:  10px; 
+    font-size: 20px;  
+    margin-left: 50px;
+}
+.plane > p {
+    font-size: 16px;  
+    letter-spacing: 2px;
+}
+
+.retro  {
+    width: 300px;
+    height: 200px;
+}
+.retro > img {
+    width: 15%;
+    margin-left: 80px;
+}
+.retro > h3 {
+    margin-bottom:  10px; 
+    font-size: 20px;  
+    margin-left: 50px;
+}
+.retro > p {
+    font-size: 16px;  
+    letter-spacing: 2px;
+}
+.customization {
+    width: 300px;
+    height: 200px;
+
+}
+.customization > img {
+    width: 15%;
+    margin-left: 80px;
+}
+.customization> h3 {
+    margin-bottom:  10px; 
+    font-size: 20px;  
+    margin-left: 50px;
+}
+.customization> p {
+    font-size: 16px;  
+    letter-spacing: 2px;
+}
