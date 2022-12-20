@@ -10,11 +10,11 @@ body {
      
  
  }
- section  {
-    width: 100%;
-    height: 100vh;
-   overflow: hidden;
+ section {
+
+    overflow: hidden;
  }
+ 
  header {
     top: 0;
     position: sticky;
@@ -293,18 +293,6 @@ font-size: 20px;
 }
 
 
-
-
-/* peoplesay */
-.people {
-    width: 1170px;
-    height: 360px;
-    border: 2px solid black;
-    
-}
-.people {
-    text-align: center;
-}
 /* sectionairlines */
 .airlogo{
     display: flex;
