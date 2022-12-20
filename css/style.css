@@ -39,6 +39,9 @@ align-items: center;
 margin-right: 30px;
 font-size: 20px;
 }
+.nav-ul li a:active {
+    background-color: yellow;
+  }
 .nav-ul :last-child {
     margin-left: 10px;
 }
@@ -63,7 +66,7 @@ button[type=send] {
     height: 535px;
     text-align: center;
     margin-top: 20px;
-    background-color: aqua;
+   border: 2px solid crimson;
 
 }
 
@@ -253,6 +256,7 @@ button[type=send] {
     font-size: 50px;
     color: #14183e;
     font-weight: bold;
+    margin-bottom:  20px;   
 }
 .destination-wrapper {
     display: flex;
@@ -260,13 +264,33 @@ button[type=send] {
     align-items: center;
 }
 .card-wrapper > img {
-    width: 250px;
+ 
+    width: 300px;
     height: 100%;
+    border: 2px solid gray;
+    background-color: beige;
+    border-radius: 2%;
+}
+.card-wrapper > h2 {
+    margin-left: 45px;
+   
+}
+.card-wrapper > h4 {
+    margin-left: 165px;
+    margin-top: -15px;
 }
 
+.card-wrapper > .fa-solid {
+    margin-left: 65px;
+    margin-top: 15px;
+    width: 50px;
 
+}
 
-
+.card-wrapper > h3 {
+    margin-top: -15px;
+    margin-left: 115px;
+}
 
 /* nexttrip */
 .nexttrip-wrapper {
