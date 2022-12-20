@@ -187,34 +187,40 @@ font-size: 20px;
 
 /* mysection */
 .working {
-    margin-top: 20px;
-        width: 1170px;
-        height: 360px;
-        border: 2px solid black;
- 
+    background-image: url(../images/workgirl.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: contain;
+    
 }
-.working > img {
-    width: 650px;
-    height: 100%;
-   margin-left: 510px;
-  margin-top: -55px;
 
-
-}
-.working > h2 {
+.workingtext > h2 {
     font-size: 25px;
-
-   
+    position: absolute;
+    top: 50px; 
+    margin-left: 70px;
+    font-weight: bold;
 }
-.working >p {
+.workingtext >p {
     font-size: 15px;
-    letter-spacing:1px;
-    text-align: left;
-
-   
+  
+    line-height: 30px;
+    position: absolute;
+    top: 150px;
+    margin-left: 80px;
 }
 
+/* .girlworking > img {
+    width: 500px;
+    height: 300px;
+   padding-bottom: 50px;
+   margin-left: 500px; 
+   margin-top: 50px;
 
+
+} */
 
 /* sectiondestinations */
 
@@ -237,24 +243,14 @@ font-size: 20px;
 
 
 /* nexttrip */
-.nexttrip-wrapper {
-    width: 1120x;
-    height: 500px;
-    border: 2px solid black;
-    display: flex;
-   flex-direction: column;
-   align-items: center;
+.tripstext {
+    border: 2px solid forestgreen;
+    position: relative;
+    display: inline-block;
+   margin-right: 400px;
+   margin-top: 40px;
 }
 
-.nexttripimg> img {
-    width: 500px;
-   margin-top: 20px;
-    
-}
-.tripstext {
-    position: relative;
-    display: inline;
-}
 .tripstext  h3 {
     position: absolute;
     font-size: 45px;
@@ -271,16 +267,23 @@ font-size: 20px;
     left: 30%;
     
 }
+.nexttrip-wrapper {
+    width: 1120x;
+    height: 500px;
+    border: 2px solid black;
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+}
 
 
-.steps {
+.step1 {
+    border: 3px solid cornflowerblue;
     width: 250px;
     height: 150px; 
-    background-color: aqua;
-    margin-left:  800px;
-    margin-bottom: 100px;
-   
-   
+   text-align: center;
+   display: flex;
+   flex-direction: column;
 }
 
 
