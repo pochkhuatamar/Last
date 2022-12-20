@@ -47,6 +47,39 @@ font-size: 20px;
 
 }
 
+.backimage > h2 {
+    font-size: 20px;
+    color: #df6951;
+    margin-top: 53px;
+    margin-right: 40px;
+}
+.backimage > h1 {
+    font-size: 70px;
+    color: yellow;
+    font-family: "Sofia", sans-serif;
+    margin-top: 24px;
+    margin-right: 50px;
+}
+
+.backimage > p {
+    font-size: 16px;
+    color: #5e6282;
+    margin-top: 90px;
+   text-align: center;
+   margin-top: 100px;
+}
+.backimage > button {
+   width: 170px;
+   height: 60px;
+   font-size: 18px;
+   background-color:#f1a501;
+   margin-right: 150px;
+   margin-top: 34px;
+
+}
+.backimage >.fa-solid {
+    /* margin-top: 34px; */
+}
 /* sectionoffers */
 
 /* sectiondestinations */
@@ -143,3 +176,155 @@ font-size: 20px;
     font-size: 16px;  
     letter-spacing: 2px;
 }
+.yotubevideo {
+    display: flex;
+    justify-content: center;
+}
+
+/* mysection */
+.working {
+    margin-top: 20px;
+        width: 1170px;
+        height: 360px;
+        border: 2px solid black;
+ 
+}
+.working > img {
+    width: 650px;
+    height: 100%;
+   margin-left: 510px;
+  margin-top: -55px;
+   
+
+}
+.working > h2 {
+    font-size: 25px;
+}
+.working >p {
+    font-size: 15px;
+    letter-spacing:1px;
+    text-align: left;
+}
+
+
+
+/* sectiondestinations */
+
+.sell-wrapper {
+    text-align: center;
+    margin-top: 100px;
+}
+.destination-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-wrapper > img {
+    width: 250px;
+    height: 100%;
+}
+
+
+
+
+
+/* nexttrip */
+.nexttrip-wrapper {
+    text-align: center;
+    margin-right: 750px;
+}
+.nexttrip-wrapper > h3 {
+    margin-bottom:  10px;  
+
+}
+.step-wrapper {
+    width: 400px;
+    height: 100%;
+    margin-bottom:  20px;  
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+.nexttripimage {
+    margin-left: 600px; 
+
+}
+.steps > h3 ,h2 {
+    font-size: 16px;
+    color: #5e6282;
+
+}
+
+/* peoplesay */
+.people {
+    width: 1170px;
+    height: 360px;
+    border: 2px solid black;
+    
+}
+
+/* sectionairlines */
+.airlogo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-direction: row; */
+}
+
+/* footersection */
+ footer {
+   width: 1170px;
+   height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:gray;
+
+} 
+.jadoo-wrapper {
+    width: 208px;
+    height: 118px;
+    border: 2px solid yellow;
+
+}
+.footer-wrapper {
+    width: 475px;
+    height: 153px;
+    border: 2px solid green;
+    display: flex;
+    flex-direction: column;
+}
+.footer-wrapper > a  {
+    margin-top: 12px;
+
+}
+.social {
+    width: 214px;
+    height: 147px;
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social >img {
+    margin-bottom: 30px;
+    margin-left: 30px;
+    
+}
+
+.app {
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.app > h2 {
+
+}
+.app > img {
+    width: 70px; 
+ 
+   
+} 
