@@ -114,7 +114,6 @@ button[type=send] {
 
 /* sectionoffers */
 .offerbox {
-
     width: 1120x;
     height: 500px;
     border: 2px solid black;
@@ -297,9 +296,7 @@ button[type=send] {
     width: 1120x;
     height: 500px;
     border: 2px solid black;
-     display: flex;
-   flex-direction: column;
-   align-items: center; 
+    
 }
 .tripstext {
     border: 2px solid forestgreen;
@@ -307,6 +304,7 @@ button[type=send] {
     display: inline-block;
     margin-right: 400px;
     margin-top: 40px;
+    margin-left: 20px;
 }
 
 .tripstext  h3 {
@@ -325,13 +323,12 @@ button[type=send] {
     left: 30%;  
 }
 
-.step {
-    border: 3px solid cornflowerblue;
-    width: 250px;
-    height: 150px; 
+.threebox {
+    width: 400px;
+    min-height: 290px;
+    border: 2px solid red;
     margin-left: 700px;
-    margin-bottom: 800px;
-   
+    margin-top: -350px;
 }
 
 
