@@ -14,6 +14,7 @@
 @media (max-width:760px) {
     .airlogo {
         flex-direction: column;
+        
         align-items: center;
     }
     .airlogo {
@@ -30,6 +31,13 @@
         font-size: 30px;
         color: #5e6282;
         cursor: pointer;
+    }
+    .services1  {
+       flex-wrap: wrap;
+
+    }
+    .offer-wrapper {
+    margin-left: 50%;
     }
 }
 
