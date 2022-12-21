@@ -73,7 +73,18 @@ button[type=send] {
    /* border: 2px solid crimson; */
 
 }
-
+.playwrapper {
+    width: 700px;
+    
+    border: 2px solid red;
+   
+}
+.this {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
 .backimage > h2 {
     font-size: 20px;
     color: #df6951;
@@ -87,6 +98,7 @@ button[type=send] {
     margin-top: 24px;
     margin-right: 50px;
 }
+
 
 .backimage > p {
     font-size: 16px;
@@ -105,6 +117,7 @@ button[type=send] {
     background-color:#f1a501;
     margin-right: 300px ;
     margin-top: 34px;
+    margin-left: 10px;
 }
 
 .btn:hover{
@@ -114,7 +127,20 @@ button[type=send] {
     margin-top: 34px;
 }
 
+.play {
+    width: 50px;
+    height: 50px;
+   background-color: #5e6282;
+   border-radius: 50%;
+  
+ 
+  
+}
 
+.fa-circle-play {
+   margin:17px ; 
+   
+}
 
 /* sectionoffers */
 .offerbox {

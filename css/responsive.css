@@ -1,6 +1,7 @@
 @media (max-width:1170px) {
     .body {
         padding: 0 30px;
+        width: 90%;
 
     }
     
@@ -23,7 +24,7 @@
     .airlogo > img:not(:last-child){
         margin-bottom: 30px;
     }
-    .nav {
+    .nav-ul {
         display: none;
     }
     .fa-bars {
