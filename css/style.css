@@ -272,7 +272,10 @@ button[type=send] {
     font-size: 50px;
     color: #14183e;
     font-weight: bold;
-    margin-bottom:  20px;   
+  margin-bottom: 20px; 
+}
+.sell-wrapper >h3 {
+    padding-bottom: 30px;
 }
 .destination-wrapper {
     display: flex;
