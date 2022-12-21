@@ -43,6 +43,11 @@ align-items: center;
 margin-right: 30px;
 font-size: 20px;
 }
+nav ul li:hover{
+
+    color: #ccc;
+    transform: scale(1.2);
+}
 .nav-ul li a:active {
     background-color: yellow;
   }
@@ -294,6 +299,9 @@ button[type=send] {
     font-size: 18px;
     color: #5e6282;
 }
+.card-wrapper:hover {
+    transform: scale(1.05);
+}
 .sell-wrapper >h2 {
     font-size: 50px;
     color: #14183e;
@@ -410,7 +418,7 @@ button[type=send] {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
    
 }
 

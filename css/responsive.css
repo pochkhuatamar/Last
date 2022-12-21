@@ -12,7 +12,7 @@
 
 
 
-@media (max-width:760px) {
+@media (max-width:768px) {
     .airlogo {
         flex-direction: column;
         
@@ -39,6 +39,9 @@
     }
     .offer-wrapper {
     margin-left: 50%;
+    }
+    .nav-ul.open-menu {
+        display: block;
     }
 }
 
