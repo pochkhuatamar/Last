@@ -1,0 +1,79 @@
+.container {
+max-width: 1170px;
+width: 100%;
+margin: 0 auto;
+
+}
+.Subscribe {
+    position: relative;
+}
+.subbox {
+    margin-top: 40px;
+    max-width: 1170px;
+    height: 407px;
+    /* position: relative; */
+   /* height: 400px; */
+   border: 2px solid crimson;
+   background-color: rgb(248, 240, 255);
+   border-radius:100px 25px 25px 25px ;
+  
+}
+
+.subbox1 {
+    width: 860px;
+    height: 110px;
+    border: 3px solid black;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+
+.subbox1 > h3 {
+    font-size: 33px;
+    color: #5e6282;
+    text-align: center;
+
+
+}
+.subbox2 {
+    width: 860px;
+    height: 110px;
+    border: 3px solid blueviolet;
+ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 60px;
+    margin-left: 100px;
+}
+.subbox2 #youremail {
+    position: relative;
+    
+}
+#emailimg {
+    width:2%;
+    position: absolute;
+    margin-left: -470px;
+    margin-top: 20px;
+  
+}
+ #yoursubscribe {
+    background-color: #ff7d68; width: 150px;height: 60px;
+         text-align: center; border-radius: 10px;
+         cursor: pointer; 
+
+ }
+ #youremail {
+    width: 421px; height: 68px; 
+         cursor: pointer; margin-left:124px; border-radius: 10px;
+          padding-left: 50px; 
+ }
+ .subbox2 input[type=text] {
+    font-size: 15px;
+ }
+ #messageimg {
+    position: absolute;
+    margin-left:74%;
+    margin-top: -1%;
+ }

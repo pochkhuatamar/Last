@@ -8,14 +8,61 @@
 }
 
 
+@media (max-width:1167px) {
+    .services1  {
+  flex-wrap: wrap;
+   column-count: 2;
+ 
+     }
+
+}
+@media (max-width:768px) {
+    .services1 {
+        flex-wrap: wrap;
+       flex-flow: column;
+       /* და აქ მინდა რომ მარცხნივ გაიცენტროს */
+    }
+    .nexttrip  {
+       flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .threebox {
+        margin-top:100px;
+       margin-left: 20% ;
+      
+    }
+}
 
 
+
+@media (max-width:910px) {
+    .card-wrapper img {
+        width: 80%;
+    }
+    
+}
+@media (max-width:875px){
+    .destination-wrapper {
+        flex-wrap: wrap;
+       flex-flow: column;
+       margin-left: 100px;
+    }
+}
 
 
 @media (max-width:768px) {
+   
+    .yotubevideo {
+       
+    }
+    .threebox {
+        flex-direction: column;
+        align-items: center;
+
+    }
+   
     .airlogo {
         flex-direction: column;
-        
         align-items: center;
     }
     .airlogo {
@@ -23,7 +70,7 @@
     }
     .airlogo > img:not(:last-child){
         margin-bottom: 30px;
-    }
+    } 
     .nav-ul {
         display: none;
     }
@@ -35,16 +82,53 @@
     }
     .services1  {
        flex-wrap: wrap;
+       width: 80%;
+      
 
     }
     .offer-wrapper {
     margin-left: 50%;
     }
+
+
+
+
+
     .nav-ul.open-menu {
         display: block;
     }
 }
 
 @media (max-width:480px) {
+    .yotubevideo {
+        width: 60%;
+    }
+    .destination-wrapper {
+        flex-wrap: wrap;
+    }
+
     
+}
+
+@media (max-width:1080px) {
+    .socialbox  {
+        flex-wrap: wrap;
+       columns: 2;
+    }
+}
+@media (max-width:640px) {
+    footer {
+      flex-wrap: wrap;
+   
+       
+    }
+}
+
+
+@media (max-width:1080px) {
+    .app img {
+     flex-wrap: wrap;
+     columns: 2;
+    }
+
 }
