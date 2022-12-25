@@ -2,64 +2,47 @@
     .body {
         padding: 0 30px;
         width: 90%;
-
     }
+    section {
+        overflow: hidden;
+     }
     
 }
 
 
-@media (max-width:1167px) {
-    .services1  {
+@media (max-width:1024px) {
+
+
+
+
+    /* .services1  {
   flex-wrap: wrap;
    column-count: 2;
  
-     }
+     } */
 
 }
-@media (max-width:768px) {
-    .services1 {
-        flex-wrap: wrap;
-       flex-flow: column;
-       /* და აქ მინდა რომ მარცხნივ გაიცენტროს */
-    }
-    .nexttrip  {
-       flex-direction: column;
-        flex-wrap: wrap;
-    }
-    .threebox {
-        margin-top:100px;
-       margin-left: 20% ;
-      
-    }
-}
 
-
-
-@media (max-width:910px) {
-    .card-wrapper img {
-        width: 80%;
-    }
-    
-}
-@media (max-width:875px){
-    .destination-wrapper {
-        flex-wrap: wrap;
-       flex-flow: column;
-       margin-left: 100px;
-    }
-}
+/* media1024px */
 
 
 @media (max-width:768px) {
    
-    .yotubevideo {
-       
-    }
+    
     .threebox {
         flex-direction: column;
         align-items: center;
 
     }
+    .nexttrip  {
+        flex-direction: column;
+         flex-wrap: wrap;
+     }
+     .threebox {
+         margin-top:100px;
+        margin-left: 20% ;
+       
+     }
    
     .airlogo {
         flex-direction: column;
@@ -83,21 +66,19 @@
     .services1  {
        flex-wrap: wrap;
        width: 80%;
+       flex-flow: column;
       
-
     }
     .offer-wrapper {
-    margin-left: 50%;
+        margin-left: 50%;
+        }
+        .nav-ul.open-menu {
+            display: block;
+        }
     }
+    
 
-
-
-
-
-    .nav-ul.open-menu {
-        display: block;
-    }
-}
+    /* @media480px */
 
 @media (max-width:480px) {
     .yotubevideo {
@@ -110,25 +91,3 @@
     
 }
 
-@media (max-width:1080px) {
-    .socialbox  {
-        flex-wrap: wrap;
-       columns: 2;
-    }
-}
-@media (max-width:640px) {
-    footer {
-      flex-wrap: wrap;
-   
-       
-    }
-}
-
-
-@media (max-width:1080px) {
-    .app img {
-     flex-wrap: wrap;
-     columns: 2;
-    }
-
-}
