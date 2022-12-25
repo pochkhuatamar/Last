@@ -176,7 +176,7 @@ button[type=send] {
 }
 .offertitle> h3 { 
     margin-top: 30px;
-   margin-bottom: 20px;
+    margin-bottom: 20px;
     font-size: 20px;  
 }
     .services1{
@@ -488,15 +488,12 @@ button[type=send] {
 .Subscribe {
     position: relative;
     margin-top: 50px;
-    margin-right: 10px;
-    
+    margin-right: 10px; 
 }
 .subbox {
     margin-top: 40px;
     max-width: 1170px;
     height: 407px;
-    /* position: relative; */
-   /* height: 400px; */
    /* border: 2px solid crimson; */
    background-color: rgb(248, 240, 255);
    border-radius:100px 25px 25px 25px ;
@@ -535,13 +532,10 @@ button[type=send] {
     
 }
 #emailimg {
-  
     width:2%;
     position: absolute;
     margin-left: -410px;
     margin-top: 22px;
- 
-  
 }
  #yoursubscribe {
     background-color: #ff7d68; width: 150px;height: 60px;

@@ -105,12 +105,25 @@
         }
 }
 
-/* media1024px */
+/* media768px */
 
 
 @media (max-width:768px) {
-   
-    
+    .backimage > h1 {
+        margin-left: 10px;
+        margin-top: 80px;
+    }
+    .offerbox{
+        width: 800px;
+       margin-left: -200px;
+    }
+    .destination-wrapper {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .card-wrapper > img {
+       margin-top: 10px;
+    }
     .threebox {
         flex-direction: column;
         align-items: center;
@@ -120,22 +133,56 @@
         flex-direction: column;
          flex-wrap: wrap;
      }
+     .nexttrip-wrapper {
+        width: 90%;
+        margin-left: 7% ;
+     }
+     .nexttrip-wrapper img {
+        max-width: 100%;
+        height: auto;
+  
+    }
      .threebox {
+        width: 95%;
          margin-top:100px;
         margin-left: 20% ;
-       
      }
    
     .airlogo {
         flex-direction: column;
         align-items: center;
-    }
-    .airlogo {
         width: 80%;
+        margin-left: 70px;
     }
+    
     .airlogo > img:not(:last-child){
         margin-bottom: 30px;
     } 
+ 
+    .subbox1{
+        width: 550px;
+        height: 90px;
+    }
+    .subbox1  h3 {
+        font-size: 18px;
+        letter-spacing: 2px;   
+        padding-top: 20px; 
+    
+    }
+    .subbox2{
+        width: 570px;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    #emailimg {
+        margin-left: -210px;
+        width:3%;
+    }
+    #youremail {
+        width: 200px;
+        padding-left: 50px;
+    }
     .nav-ul {
         display: none;
     }
@@ -145,17 +192,31 @@
         color: #5e6282;
         cursor: pointer;
     }
-    .services1  {
-       flex-wrap: wrap;
+    
+    .offerbox{
+        flex-wrap: wrap;
        width: 80%;
-       flex-flow: column;
-      
+       margin-left: 70px;
     }
-    .offer-wrapper {
-        margin-left: 50%;
-        }
+    
         .nav-ul.open-menu {
             display: block;
+        }
+       
+        .jadoo-wrapper {
+            width: 150px;
+        }
+        .footer-wrapper {
+           width: 200px;
+        }
+        .social  {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .socialbox{
+           margin-left:5px;
+           margin-top: 10px;
         }
     }
     
