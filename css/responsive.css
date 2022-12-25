@@ -9,18 +9,100 @@
     
 }
 
+/* media1024px */
+
 
 @media (max-width:1024px) {
 
-
-
-
-    /* .services1  {
-  flex-wrap: wrap;
-   column-count: 2;
- 
-     } */
-
+    body {
+            background-image: url(../images/girl.png) url(../images/Decore.svg);
+            background-position:top 70px right -30px, top -200px right -50px ; 
+        
+        }
+ .backimage > p {
+        font-size: 20px;
+           
+        }
+        .offerbox {
+            width: 97%;
+        }
+        .services1 {
+            flex-wrap: wrap;
+            column-count: 2;
+        }
+        .working {
+            width: 90vw;
+        }
+        .card-wrapper img:nth-child(1) {
+          margin-left: 10px; 
+        }
+        /* .card-wrapper img:nth-child(3) {
+            მარჯვნიდან შემოვიდეს 10% არ აკეთებს რატო ? :)))
+        }
+         */
+         #messageimg {
+            margin-left:91%;
+            margin-top: 1%;
+         }
+         .threebox {
+            width: 320px;
+            height: auto;
+         }
+         .subbox {
+            width: 90%;
+            height: auto;
+            margin-left: 40px;
+         }
+        .subbox1  h3 {
+            font-size: 23px;
+            letter-spacing: normal;    
+            padding-top: 50px;
+        }
+        .subbox2{
+            margin-left: 40px;
+           margin-top: 0px;
+        }
+        footer {
+            column-count: 3;
+            flex-wrap: wrap; 
+            
+        }
+        .jadoo-wrapper{
+            margin-left: 10px;
+        }
+       
+        .footer-wrapper > a  {
+          font-size: 20px;
+        }
+        
+        .socialbox {
+            max-width: 800px;
+            height: auto;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+           margin-left: 110px;
+        }
+        .social >img {
+            margin-bottom: 50px;
+             margin-left: 30px;    
+         }
+         .app  {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+          
+        }
+        .app  img {
+            width: 120px; 
+            margin-left: 50px; 
+            margin-bottom: 50px;
+        
+        } 
+        .app  h2 {
+            font-size: 30px;
+            margin-left: 30px;
+        }
 }
 
 /* media1024px */
