@@ -83,7 +83,7 @@ button[type=send] {
     height: 535px;
     text-align: center;
     margin-top: 20px;
-   border: 2px solid crimson;
+   /* border: 2px solid crimson; */
 
 }
 .backimage > h2 {
@@ -188,6 +188,7 @@ button[type=send] {
     justify-content: space-around;
     flex-direction: row;
     align-items: center;
+   
 }
 
 .weather {
@@ -566,7 +567,7 @@ button[type=send] {
     align-items: center;
     flex-wrap: wrap;   
     border-radius: 10px;
-   /* border: 2px solid red; */
+   /* border: 2px solid blue; */
    /* background: linear-gradient(rgba(0, 0, 0, 0.485), rgba(0, 0, 0, 0.688)) */
    background: linear-gradient(to right, rgba(0, 128, 128, 0.7), rgba(255, 192, 203, 0.8));
 
@@ -575,9 +576,10 @@ button[type=send] {
     max-width: 250px;
     width: 100%;
     /* height: 118px; */
-    /* border: 2px solid yellow; */
+    
 
 }
+
 .jadoo-wrapper > h2 {
     font-size: 44px;
     color: #181e4b;
@@ -598,8 +600,9 @@ button[type=send] {
     /* border: 2px solid green; */
     display: flex;
     flex-direction: column;
-
+ 
 }
+
 .footer-wrapper > a  {
     margin-top: 12px;
     text-align: center;
@@ -610,6 +613,7 @@ button[type=send] {
     width: 100%;
     /* height: 150px; */
     /* border: 2px solid red; */
+    
 } 
 .social >img {
    margin-bottom: 80px;
@@ -622,7 +626,7 @@ button[type=send] {
     font-size: 20px;
     color: #5e6282;
     text-align: center;
-   margin-top: -60px;
+    margin-top: -60px;
 }
 
 .app > img {
@@ -643,4 +647,10 @@ button[type=send] {
 .lastclass:hover {
     color: blueviolet;
     transform: scale(1.1);
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
 }
