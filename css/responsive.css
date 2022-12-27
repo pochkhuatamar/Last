@@ -108,6 +108,8 @@
 
 
 @media (max-width:768px) {
+
+   
     .backimage > h1 {
         margin-left: 10px;
         margin-top: 80px;
@@ -226,7 +228,9 @@
     /* @media480px */
 
  @media (max-width:480px) {
-   
+    .backimage {
+        width: 460px;
+    }
     .geolab {
         margin-left: 30px;
     }
@@ -337,53 +341,6 @@
         margin-left: 10px;
     
     } 
-/* 
-    footer {
-        width: 460px;
-        margin-left: 20px;
-        
-      
-     
-    }
-    .jadoo-wrapper {
-        width: 100px;
-       margin-left: 5px;
-       display: flex;
-  flex-wrap: wrap;
-  align-content: center;
-    }
-    .jadoo-wrapper > h2 {
-        font-size: 25px;
-        margin-left: 10px;
-    
-    }
-    .footer-wrapper {
-       width: 120px;
-       margin-right: 20px;
-       
-    }
-   
-    
-    .socialbox {
-        width: 300px;
-        height: 100px;
-        margin-right: 5px;
-    }
-    
-   .app {
-    width: 100px;
-    
-    margin-bottom: 30px;
-   }
-   .app > h2 {
-    font-size: 15px;
-}  
- 
-.app  img {
-   
-    margin-left: 20px;
-
-}  */
 
 }
  

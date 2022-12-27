@@ -637,20 +637,3 @@ button[type=send] {
 .app >img:hover {
     transform: scale(1.5);
 }
-.lastclass {
-    font-size: 30px;
-    font-weight: bolder;
-    margin-left: 400px;
-    margin-top: 70px;
-    margin-bottom: 70px;
-}
-.lastclass:hover {
-    color: blueviolet;
-    transform: scale(1.1);
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: inset;
-    border-width: 1px;
-}
