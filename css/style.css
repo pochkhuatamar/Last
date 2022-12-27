@@ -561,6 +561,7 @@ button[type=send] {
  footer {
     max-width: 1170px;
     width: 100%;
+    margin-top: 50px;
     height: 300px;
     display: flex;
     justify-content: space-between;
